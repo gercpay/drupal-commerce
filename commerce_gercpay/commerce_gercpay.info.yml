@@ -1,0 +1,17 @@
+name: Commerce GercPay Payment
+type: module
+description: 'Provides Commerce integration for the GercPay Payment Gateway (Off-site redirect).'
+package: Commerce
+dependencies:
+  - commerce:commerce (>=8.x-2.0)
+  - commerce:commerce_payment (>=8.x-2.0)
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+configure: entity.commerce_payment_gateway.collection
+hidden: false
+'interface translation project': commerce_gercpay
+'interface translation server pattern': modules/%project/translations/%language.po
+
+version: '1.0.4'
+project: 'commerce_gercpay'
+datestamp: 1623049719
