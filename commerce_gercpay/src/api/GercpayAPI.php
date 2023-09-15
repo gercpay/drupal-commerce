@@ -23,7 +23,7 @@ class GercpayAPI {
   const RESPONSE_TYPE_PAYMENT = 'payment';
   const RESPONSE_TYPE_REVERSE = 'reverse';
 
-  const URL = "https://api.gercpay.com.ua/";
+  const URL = "https://api.gercpay.com.ua/api/";
 
   /**
    * Array keys for generate response signature.
